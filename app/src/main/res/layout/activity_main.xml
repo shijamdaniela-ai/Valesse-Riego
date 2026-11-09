@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F8F9FA">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ilustracion_inicio"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUIDA TUS PLANTAS\nSIN ESFUERZO"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1B5E20"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valessé es un sistema inteligente que monitorea y riega tus plantas en tiempo real."
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Siguiente ➔"
+        android:onClick="irAInicio"
+        android:backgroundTint="#1B5E20"
+        app:cornerRadius="12dp" />
+
+</LinearLayout>
